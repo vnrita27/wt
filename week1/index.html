@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Book Store</title>
+    <style>
+        html{
+            animation: scaleRotate 3s ease;
+            border-radius: 20px;
+        }
+        frameset{
+            animation: intro 2s ease;            
+        }
+       @keyframes intro{
+        from {opacity: 0;}
+        to {opacity: 1;}
+       }
+        @keyframes scaleRotate {
+        0% {
+            transform: scale(0.3    ) rotate(0deg);
+        }
+        100% {
+            transform: scale(1) rotate(720deg);
+        }
+    }
+    </style>
+</head>
+<frameset rows="93%,7%">
+    <frameset cols="20%,80%">
+        <frame src="nav.html" name="navFrame">
+        <frame src="home.html" name="contentFrame">
+    </frameset>
+    <frame src="footer.html" name="footerFrame">
+</frameset>
+</html>

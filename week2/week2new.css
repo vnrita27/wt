@@ -1,0 +1,77 @@
+/* General styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #eef1f5;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #aad2da, #5e6269);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    min-height: calc(100vh - 130px);
+}
+
+/* Menu Frame */
+.menu {
+    width: 22%;
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    background-color: #f1f3f6;
+    color: #333;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #478b39;
+    color: white;
+    transform: translateX(5px);
+}
+
+/* Content Frame */
+.content {
+    width: 78%;
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fb;
+    color: #555;
+    text-align: center;
+    padding: 12px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+iframe{
+    width: 100%;
+    height: 60vh;
+    border: none;
+    border-radius: 20px;
+}

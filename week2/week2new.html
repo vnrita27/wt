@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Week 2 - CSS Styling</title>
+    <link rel="stylesheet" href="week2new.css">
+</head>
+<body>
+
+    <!-- Header Frame -->
+    <div class="header">
+        CSS Styling - Week 2 Lab
+    </div>
+
+    <!-- Main Layout -->
+    <div class="container">
+
+        <!-- Left Menu Frame -->
+        <div class="menu">
+            <a href="#" onclick="showPage('home')">Home</a>
+            <a href="#" onclick="showPage('reg')">Registration</a>
+            <a href="#" onclick="showPage('login')">Login</a>
+            <a href="#" onclick="showPage('catalog')">Catalog</a>
+            <a href="#" onclick="showPage('cart')">Cart</a>
+        </div>
+
+        <!-- Content Frame -->
+        <div class="content" id="content">
+            <h2>Welcome</h2>
+            <p>This is the Home page. CSS is used to style layout, colors and fonts.</p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        © 2026 Web Technology Lab
+    </div>
+
+<script>
+function showPage(page) {
+    let content = document.getElementById("content");
+
+    if(page === "home")
+        content.innerHTML = "<h2>Home</h2><p>This is home page styled using CSS.</p>";
+
+    if(page === "reg")
+        content.innerHTML = "<h2>Registration</h2><p>Dummy registration page for CSS styling.</p>";
+
+    if(page === "login")
+        content.innerHTML = "<h2>Login</h2><p>Dummy login page for CSS styling.</p><iframe src=\"https://sec-brain.niheshr.com/embed\"></iframe>";
+
+    if(page === "catalog")
+        content.innerHTML = "<h2>Catalog</h2><p>Dummy product catalog page.</p>";
+
+    if(page === "cart")
+        content.innerHTML = "<h2>Cart</h2><p>Dummy cart page styled using CSS.</p>";
+}
+</script>
+
+</body>
+</html>

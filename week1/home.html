@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+    body {
+        text-align: center;
+    }
+
+    div {
+        margin-top: 100px;
+        background-color: rgb(223, 174, 174);
+        border-radius: 20px;
+        padding: 20px 10px;
+        display: inline-block;
+        animation: movi 1s infinite alternate;
+    }
+
+    div:hover {
+        background-color: rgb(218, 160, 160);
+        font-size: large;
+        font-weight: bolder;
+        font-family: Times, serif;
+
+        /* animation on hover */
+        animation: scaleRotate 1s ease forwards;
+    }
+
+    /* scale from 0 to 1 with full rotation */
+    @keyframes scaleRotate {
+        0% {
+            transform: scale(0.3    ) rotate(0deg);
+        }
+        100% {
+            transform: scale(2) rotate(360deg);
+        }
+    }
+    @keyframes movi {
+        0% {
+            transform: translateX(-100px);
+        }
+        25%{
+            transform: translateY(-100px);
+        }
+        50% {
+            transform: translateY(100px);
+        }
+        100% {
+            transform: translateX(100px);
+        }
+    }
+</style>
+
+    </head>
+<body>
+    <div>
+<h2>Welcome to Online Book Store</h2>
+<p>Select a category from the navigation menu.</p></div>
+</body>
+</html>
