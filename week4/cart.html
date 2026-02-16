@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🛒 Your Shopping Cart</h1>
+    
+    <a href="index.html" class="nav-link">← Continue Shopping</a>
+    
+    <h2>Cart Contents</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Book Name</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="cartTableBody">
+            <!-- Cart items will be displayed here -->
+        </tbody>
+    </table>
+    
+    <h2>Total: <span id="cartTotal">₹0</span></h2>
+    
+    <button class="btn btn-remove" onclick="clearCart()">Clear Cart</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
