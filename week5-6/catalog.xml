@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+    <book>
+        <title>RDPD</title>
+        <author>Tom Wells</author>
+        <price>$700</price>
+        <publisher>Stanford Pub</publisher>
+        <DOP>1st jan 2026</DOP>
+    </book>
+    <book>
+        <title>Dhoni</title>
+        <author>Sara</author>
+        <price>$2000</price>
+        <publisher>Tends</publisher>
+        <DOP>1st jan 2026</DOP>
+    </book>
+    <book>
+        <title>Harry /&amp; Hendy </title>
+        <author>HhH</author>
+        <price>$60</price>
+        <publisher>HH</publisher>
+        <DOP>1st Dec 2026</DOP>
+    </book>
+    <book>
+        <title>Harry Potter I</title>
+        <author>Maya</author>
+        <price>$760</price>
+        <publisher>JK</publisher>
+        <DOP>1st mar 2026</DOP>
+    </book>
+    <book>
+        <title>Harry Potter II</title>
+        <author>Maya</author>
+        <price>$760</price>
+        <publisher>JK</publisher>
+        <DOP>1st mar 2026</DOP>
+    </book>
+    <book>
+        <title>Harry Potter III</title>
+        <author>Maya</author>
+        <price>$760</price>
+        <publisher>JK</publisher>
+        <DOP>1st mar 2026</DOP>
+    </book>
+    <book>
+        <title>RDPD</title>
+        <author>Tom Wells</author>
+        <price>$700</price>
+        <publisher>Stanford Pub</publisher>
+        <DOP>1st jan 2026</DOP>
+    </book>
+    <book>
+        <title>Ford vs Ferrari</title>
+        <author>Embs Watt</author>
+        <price>$700</price>
+        <publisher>Hays</publisher>
+        <DOP>1st jan 2023</DOP>
+    </book>
+    <book>
+        <title>Lamborghini</title>
+        <author>Winchester</author>
+        <price>$700</price>
+        <publisher>WB</publisher>
+        <DOP>1st may 2026</DOP>
+    </book>
+    <book>
+        <title>Atomic Habbits</title>
+        <author>Jay Wet</author>
+        <price>$660</price>
+        <publisher>TWS</publisher>
+        <DOP>1st sep 2026</DOP>
+    </book>
+</books>

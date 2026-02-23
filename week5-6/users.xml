@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>nihesh</username>
+        <password>password123</password>
+        <email>nihesh@gmail.com</email>
+        <contact>8328094810</contact>
+        <purchase-history>
+            <item>Atomic Habits</item>
+            <item>RDPD</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>mahesh</username>
+        <password>password123</password>
+        <email>mahesh@gmail.com</email>
+        <contact>832554810</contact>
+        <purchase-history>
+            <item>Atomic ways</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>sushank</username>
+        <password>password123</password>
+        <email>sushank@gmail.com</email>
+        <contact>8328542310</contact>
+        <purchase-history>
+        </purchase-history>
+    </user>
+    <user>
+        <username>pavan</username>
+        <password>password123</password>
+        <email>pavan@gmail.com</email>
+        <contact>75532094810</contact>
+        <purchase-history>
+            <item>Dhoni</item>
+            <item>RDPD</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>rahul</username>
+        <password>password123</password>
+        <email>rahul@gmail.com</email>
+        <contact>83655094810</contact>
+        <purchase-history>
+            <item>Harry Potter</item>
+            <item>Harry /&amp; Hendy</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>rishik</username>
+        <password>password123</password>
+        <email>rishik@gmail.com</email>
+        <contact>8658094810</contact>
+        <purchase-history>
+            <item>RDPD</item>
+            <item>Harry Potter II</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>rohit</username>
+        <password>password123</password>
+        <email>rohit@gmail.com</email>
+        <contact>86548094810</contact>
+        <purchase-history>
+        </purchase-history>
+    </user>
+    <user>
+        <username>ritheesh</username>
+        <password>password123</password>
+        <email>ritheesh@gmail.com</email>
+        <contact>83283234810</contact>
+        <purchase-history>
+            <item>Dhoni</item>
+            <item>RDPD</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>rahulp</username>
+        <password>password123</password>
+        <email>rahulp@gmail.com</email>
+        <contact>85658094810</contact>
+        <purchase-history>
+            <item>Ford vs Ferrari</item>
+            <item>RDPD</item>
+        </purchase-history>
+    </user>
+    <user>
+        <username>hara</username>
+        <password>password123</password>
+        <email>hara@gmail.com</email>
+        <contact>83263244810</contact>
+        <purchase-history>
+            <item>Lamborghini</item>
+            <item>RDPD</item>
+        </purchase-history>
+    </user>
+</users>
